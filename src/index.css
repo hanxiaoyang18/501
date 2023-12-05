@@ -4,8 +4,10 @@
 
 @layer base {
     :root {
-        --bgred1: hsl(6, 96%, 25%);
+        --bgred1: 6 96% 25%;
+        --bgblack: 0 0% 48%;
         --bgred2: hsl(6, 72%, 59%);
         --bgorange: hsl(48, 100%, 50%);
+       
     }
 }
