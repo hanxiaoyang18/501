@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         "bghome": "url('/image72.png')",
+        "bgchambre": "url('/3.png')",
       },
 
       fontSize: {
