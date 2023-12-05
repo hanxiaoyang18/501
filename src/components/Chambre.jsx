@@ -1,6 +1,7 @@
 export default function Chambre() {
     return (
-        <>
+   
+        <div className="p-52 bg-bgorange mt-2 ">
             <section className="border-9 border-[#F4B759] bg-bgchambre bg-cover bg-center h-screen w-auto flex flex-col justify-center text-center  items-center text-white">
 
                 <div className="hover:animate-ani">
@@ -10,6 +11,6 @@ export default function Chambre() {
                     </h1>
                 </div>
             </section>
-        </>
+            </div>
     );
 }

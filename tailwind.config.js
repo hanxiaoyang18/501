@@ -55,7 +55,7 @@ export default {
         '4': '4px',
         '6': '6px',
         '8': '8px',
-        '9': '40px',
+        '9': '60px',
       },
 
       fontSize: {
