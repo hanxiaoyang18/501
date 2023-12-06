@@ -5,7 +5,9 @@
 @layer base {
     :root {
         --bgred1: 6 96% 25%;
+        --bgred3: 4 95% 57%;
         --bgblack: 0 0% 48%;
+        --bgorange2: 48 100% 50%;
         --bgred2: hsl(6, 72%, 59%);
         --bgorange: hsl(48, 100%, 50%);
        

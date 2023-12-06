@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bghome": "linear-gradient(to top, hsl(var(--bgblack)/0), hsl(var(--bgblack)/.4)),url('/image72.png')",
+        "bghome": "linear-gradient(to top, hsl(var(--bgblack)/.1), hsl(var(--bgblack)/.4)),url('/image72.png')",
         //"bgchambre": "url('/3.png')",
-        "bgchambre": "linear-gradient(to top, hsl(var(--bgred1)/0), hsl(var(--bgred1)/.3)),url('/3.png')",
+        "bgchambre": "linear-gradient(to top, hsl(var(--bgred1)/0), hsl(var(--bgred1)/.4)),url('/3.png')",
+        "bgchambre2": "linear-gradient(to top, hsl(var(--bgorange2)/.2), hsl(var(--bgorange2)/.3))",
+        "bgc": "linear-gradient(to top, hsl(var(--bgred3)/.3), hsl(var(--bgred3)/.3))",
+        "affiche": "url('/42.png')",
       },
 
       keyframes: {
@@ -40,11 +43,10 @@ export default {
 
       backgroundColor: {
         "bgorange": "var(--bgorange)",
+        "bgorange2": "var(--bgorange2)",
         "bgred1": "var(--bgred1)",
         "bgred2": "var(--bgred2)",
         "bgblack": "var(--bgblack)",
-      
-        
       },
 
       borderWidth: {
@@ -64,7 +66,7 @@ export default {
           lineHeight: '15rem',
           fontWeight: '700',
         }],
-        '11xl': ['24rem', {
+        '11xl': ['16rem', {
           letterSpacing: '-0.01em',
           lineHeight: '15rem',
           fontWeight: '700',
