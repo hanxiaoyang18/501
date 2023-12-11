@@ -65,6 +65,7 @@ export default {
         '2': '2px',
         '3': '3px',
         '4': '4px',
+        '5': '5px',
         '6': '6px',
         '8': '8px',
         '9': '60px',
@@ -113,6 +114,9 @@ export default {
         }],
       },
 
+      width: {
+        '128': '44rem',
+      }
     },
   },
   plugins: [],
