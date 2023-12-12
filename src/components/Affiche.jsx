@@ -4,7 +4,7 @@ export default function Affiche() {
         <>
             <section className="bg-bgorange relative  bg-cover bg-center h-screen w-auto flex flex-col justify-center text-center items-center text-white">
            
-            <h1 className="text-112xl  absolute left-12 top-0 m-10 md:animate-affiche1 delay-150 md:delay-1000">Beauty</h1>
+            <h1 className="text-112xl  absolute left-12 top-0 m-10 md:animate-affiche1 ">Beauty</h1>
             <h1 className="text-112xl  absolute right-20 top-0 m-10">begins</h1>
             <h1 className="text-10xl absolute left-12 top-80 ml-10 ">the</h1> 
             <h1 className="text-95xl absolute left-12 m-10">moment</h1>

@@ -13,3 +13,51 @@
        
     }
 }
+
+@supports(animation-timeline: view()) {
+    @keyframes move {
+        to {
+            /* Move horizontally so that right edge is aligned against the viewport */
+            transform: translateX(calc(100% - 50vw));
+            left: 0px;
+        }
+    }
+
+.sectionPin {
+	/* Stretch it out, so that we create room for the horizontal scroll animation */
+	height: 500vh;
+	overflow: visible; /* To make position sticky work … */
+    
+
+	view-timeline-name: --section-pin-tl;
+	view-timeline-axis: block;
+}
+
+.pin-wrap {
+
+    display: flex; 
+    position: relative; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 250vmax;
+    height: 100vh; 
+    left: -150vh;
+
+    color: #ffffff; 
+
+    will-change: transform; 
+	animation: linear move forwards;
+
+	animation-timeline: --section-pin-tl;
+	animation-range: contain 0% contain 100%;
+}
+
+.pin-wrap > * {
+    min-width: 60vmax;
+
+}
+
+}
+
+
