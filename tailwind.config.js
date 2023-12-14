@@ -65,6 +65,8 @@ export default {
         "bgorange2": "var(--bgorange2)",
         "bgred1": "var(--bgred1)",
         "bgred2": "var(--bgred2)",
+        "bgred3": "var(--bgred3)",
+        "bgred4": "var(--bgred4)",
         "bgblack": "var(--bgblack)",
       },
 
@@ -125,7 +127,10 @@ export default {
 
       width: {
         '128': '44rem',
-      }
+      },
+      scale: {
+        '25': '0.35',
+      },
     },
   },
   plugins: [],

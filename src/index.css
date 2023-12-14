@@ -9,8 +9,9 @@
         --bgblack: 0 0% 48%;
         --bgorange2: 48 100% 50%;
         --bgred2: hsl(6, 72%, 59%);
+        --bgred4: hsl(4, 95%, 57%);
         --bgorange: hsl(48, 100%, 50%);
-       
+
     }
 }
 
@@ -23,41 +24,86 @@
         }
     }
 
-.sectionPin {
-	/* Stretch it out, so that we create room for the horizontal scroll animation */
-	height: 500vh;
-	overflow: visible; /* To make position sticky work … */
-    
+    .sectionPin {
+        /* Stretch it out, so that we create room for the horizontal scroll animation */
+        height: 500vh;
+        overflow: visible;
+        /* To make position sticky work … */
 
-	view-timeline-name: --section-pin-tl;
-	view-timeline-axis: block;
+
+        view-timeline-name: --section-pin-tl;
+        view-timeline-axis: block;
+    }
+
+    .pin-wrap {
+
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 250vmax;
+        height: 100vh;
+        left: -150vh;
+
+        color: #ffffff;
+
+        will-change: transform;
+        animation: linear move forwards;
+
+        animation-timeline: --section-pin-tl;
+        animation-range: contain 0% contain 100%;
+    }
+
+    .pin-wrap>* {
+        min-width: 60vmax;
+
+    }
+
 }
 
-.pin-wrap {
+@keyframes reveal {
+    from {
+        opacity: 0;
+        clip-path: inset(45% 20% 45% 20%);
+    }
 
-    display: flex; 
-    position: relative; 
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center; 
-    width: 250vmax;
-    height: 100vh; 
-    left: -150vh;
-
-    color: #ffffff; 
-
-    will-change: transform; 
-	animation: linear move forwards;
-
-	animation-timeline: --section-pin-tl;
-	animation-range: contain 0% contain 100%;
+    to {
+        opacity: 1;
+        clip-path: inset(0% 0% 0% 0%);
+    }
 }
 
-.pin-wrap > * {
-    min-width: 60vmax;
+.revealing-image {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-image;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 25% cover 50%;
+    margin-left: 0.5rem;
+    max-width: 42rem;
 
 }
 
+.revealing-image2 {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-image;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 25% cover 50%;
+    max-width: 25rem;
+    padding-right: 3rem;
+  
+
+
 }
-
-
