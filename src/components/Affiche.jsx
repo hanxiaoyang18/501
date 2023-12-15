@@ -15,17 +15,17 @@ export default function Affiche() {
         </div> */}
 
         <h1 className="relative flex flex-wrap justify-around leading-tight  ">
-          <span className=" basis-1/2  text-left  text-[9vw] font-bold ">
+          <span className=" basis-1/2  text-left  text-[9vw] font-bold hover:animate-affiche1">
             Beauty
           </span>
-          <span className="ml-auto basis-1/2 font-bold  text-right text-[9vw]">
+          <span className="ml-auto basis-1/2 font-bold  text-right text-[9vw] hover:animate-affiche2">
             begins
           </span>
-          <span className=" text-[5vw] w-min text-left font-bold  basis-1/2 leading-tight">the <br></br> moment</span>
-          <span className=" ml-auto basis-1/2  text-right text-[10vw] ">You</span>
-          <span className=" basis-1/2 text-left  text-[9vw] font-bold leading-tight ">decide</span>
-          <span className=" basis-1/2 text-right text-[9vw] font-bold ">to be</span>
-          <span className=" basis-1/2 mr-auto text-left text-[9vw] font-bold self-start ">yourself.</span>
+          <span className=" text-[5vw] w-min text-left font-bold  basis-1/2 leading-tight  hover:animate-affiche1 ">the <br></br> moment</span>
+          <span className=" ml-auto basis-1/2 font-bold   text-right text-[10vw] hover:animate-affiche2  ">You</span>
+          <span className=" basis-1/2 text-left  text-[9vw] font-bold leading-tight  hover:animate-affiche1 ">decide</span>
+          <span className=" basis-1/2 text-right text-[9vw] font-bold hover:animate-affiche2 ">to be</span>
+          <span className=" basis-1/2 mr-auto text-left text-[9vw] font-bold self-start  hover:animate-affiche1 ">yourself.</span>
         </h1>
 
         <img

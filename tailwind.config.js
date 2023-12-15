@@ -45,9 +45,22 @@ export default {
         },
 
         affiche1: {
-          '0%' :{ transform: 'translateX(-300px)', opacity: '0' }, 
+          '0%' :{ transform: 'translateX(0px)', opacity: '1' }, 
          
+          '50%' :{ transform: 'translateX(100px)', opacity: '1'}, 
+
           '100%' :{ transform: 'translateX(0px)', opacity: '1'}, 
+
+
+        },
+
+        affiche2: {
+          '0%' :{ transform: 'translateX(0px)', opacity: '1' }, 
+         
+          '50%' :{ transform: 'translateX(-100px)', opacity: '1'}, 
+
+          '100%' :{ transform: 'translateX(0px)', opacity: '1'}, 
+
 
         },
       },
@@ -56,7 +69,9 @@ export default {
         bounce: 'bounce 1.5s cubic-bezier(0.8, 0, 1, 1) ',
         // bounce: 'bounce 1s ease-in-out infinite',
         ani: 'ani 0.5s cubic-bezier(0.8, 0, 1, 1) ',
-        affiche1: 'affiche1 3s ease-in-out  ',
+        affiche1: 'affiche1 1.5s ease-in-out  ',
+        affiche2: 'affiche2 1.5s ease-in-out  ',
+
 
       },
 
