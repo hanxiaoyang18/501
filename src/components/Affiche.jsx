@@ -1,7 +1,7 @@
 export default function Affiche() {
   return (
     <>
-      <section className="relative  h-[50vw] w-auto  items-center justify-center bg-bgorange bg-cover bg-center text-center text-white">
+      <section className="relative  h-[55vw] pt-[2vw] w-auto  items-center justify-center bg-bgorange bg-cover bg-center text-center text-white">
         {/* <h1 className="text-112xl absolute left-12 top-0 m-10 focus:animate-affiche1 ">Beauty</h1>
             <h1 className="text-112xl   absolute right-20 top-0 m-10">begins</h1>
             <h1 className="text-10xl  absolute left-12 top-80 ml-10 ">the</h1> 
