@@ -9,7 +9,7 @@ export default function Chambre() {
 
             <div className=" bg-bgchambre bg-cover bg-center h-screen  sticky top-0 overflow-hidden w-auto flex flex-col justify-center text-center  items-center text-white">
 
-                <div className="hover:animate-ani absolute top-0 mt-[1vw] mb-[1vw]">
+                <div className="absolute top-0 mt-[1vw] mb-[1vw]">
                     <h1 className="font-semibold text-[10vw] leading-tight drop-shadow-lg "> BIENVENUE  </h1>
                     <h1 className="font-semibold text-[3vw] drop-shadow-lg ">
                         DANS LA CHAMBRE DE YAYOI KUSAMA

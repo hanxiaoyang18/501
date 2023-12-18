@@ -14,15 +14,15 @@ export default function Affiche() {
          
         </div> */}
 
-        <h1 className="relative flex flex-wrap justify-around leading-tight  ">
-          <span className=" basis-1/2  text-left  text-[9vw] font-bold hover:animate-affiche1">
+        <h1 className="relative flex flex-wrap justify-around leading-tight ml-[5vw] mr-[7vw]">
+          <span className=" basis-1/2  text-left  text-[9vw] font-bold hover:animate-affiche1 ">
             Beauty
           </span>
           <span className="ml-auto basis-1/2 font-bold  text-right text-[9vw] hover:animate-affiche2">
             begins
           </span>
-          <span className=" text-[5vw] w-min text-left font-bold  basis-1/2 leading-tight  hover:animate-affiche1 ">the <br></br> moment</span>
-          <span className=" ml-auto basis-1/2 font-bold   text-right text-[10vw] hover:animate-affiche2  ">You</span>
+          <span className=" text-[5.8vw] w-min text-left font-bold  basis-1/2 leading-tight  hover:animate-affiche1 ">the <br></br> moment</span>
+          <span className=" ml-auto basis-1/2 font-bold   text-right text-[11vw] hover:animate-affiche2  ">You</span>
           <span className=" basis-1/2 text-left  text-[9vw] font-bold leading-tight  hover:animate-affiche1 ">decide</span>
           <span className=" basis-1/2 text-right text-[9vw] font-bold hover:animate-affiche2 ">to be</span>
           <span className=" basis-1/2 mr-auto text-left text-[9vw] font-bold self-start  hover:animate-affiche1 ">yourself.</span>
@@ -30,7 +30,12 @@ export default function Affiche() {
 
         <img
           src="/42.png"
-          className=" absolute left-1/2  top-1/2 w-2/5 shrink-0 -translate-x-1/2 -translate-y-1/2"
+          className=" absolute left-1/2 ml-[2vw]  top-1/2 w-2/5 shrink-0 -translate-x-1/2 -translate-y-1/2"
+        />
+
+        <img
+          src="/point.png"
+          className=" absolute left-1/2 ml-[1vw] top-[32vw] w-[18vw] shrink-0 -translate-x-1/2 -translate-y-1/2 hover:animate-point "
         />
       </section>
     </>
