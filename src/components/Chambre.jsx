@@ -41,7 +41,7 @@ export default function Chambre() {
 
                 <div className="bg-bgchambre2 h-[10vw] bottom-0 left-0 absolute  w-screen">
 
-                    <button className="bg-white rounded-full absolute bottom-0 right-1/4 text-black h-[11vw] w-[11vw] mt-20 mb-[3vw] p-[0.5vw] text-[1vw] drop-shadow-xl  hover:bg-red-600 hover:text-white font-semibold  md:animate-bounce">Entrez dans la chambre</button>
+                    <button className=" rounded-full bg-slate-100 absolute bottom-0 right-1/4 text-black h-[11vw] w-[11vw] mt-20 mb-[3vw] p-[0.5vw] text-[1vw] drop-shadow-2xl  hover:bg-red-600 hover:text-white font-semibold  md:animate-bounce">Entrez dans la chambre</button>
                 </div>
             </div>
 
