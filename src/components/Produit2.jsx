@@ -17,8 +17,15 @@ export default function Produit1() {
         
             <img src="/34.png" className="revealing-image" />
 
+          
+
 
         </section>
+
+
+
+
+
 
         
     );

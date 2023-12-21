@@ -41,9 +41,24 @@ export default function Chambre() {
 
                 <div className="bg-bgchambre2 h-[10vw] bottom-0 left-0 absolute  w-screen">
 
+                <a href="#example1">
+
                     <button className=" rounded-full bg-slate-100 absolute bottom-0 right-1/4 text-black h-[11vw] w-[11vw] mt-20 mb-[3vw] p-[0.5vw] text-[1vw] drop-shadow-2xl  hover:bg-red-600 hover:text-white font-semibold  md:animate-bounce">Entrez dans la chambre</button>
+                    </a>
                 </div>
             </div>
+
+
+            <article class="popBox" id="example1">
+                    <div class="con">
+                        <a href="#" class="close"></a>
+                        <video width="1920" height="1080" loop controls>
+                            <source src="/video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </article>
+
 
         </section>
 
