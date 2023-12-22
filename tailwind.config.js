@@ -94,6 +94,7 @@ export default {
       backgroundColor: {
         "bgorange": "var(--bgorange)",
         "bgorange2": "var(--bgorange2)",
+        "bgorangef": "var(--bgorangef)",
         "bgred1": "var(--bgred1)",
         "bgred2": "var(--bgred2)",
         "bgred3": "var(--bgred3)",
