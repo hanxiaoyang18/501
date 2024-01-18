@@ -34,7 +34,7 @@ export default function Chambre() {
 
 
                 <div className="pin-wrap">
-                    <img src="/29.png" className="bg-cover bg-center h-screen w-auto border-9 border-[#F4B759] drop-shadow-lg" />
+                    <img src="/49.png" className="bg-cover bg-center h-screen w-auto border-9 border-[#F4B759] drop-shadow-lg" />
                     <img src="/29.png" className="bg-cover bg-center h-screen w-auto border-9 border-[#F4B759] drop-shadow-lg" />
 
                 </div>
